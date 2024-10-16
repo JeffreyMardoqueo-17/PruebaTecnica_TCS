@@ -18,6 +18,58 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Jeffrey Mardoqueo\Desktop\Prueba Tecnica TCS\PruebaTecnicaJeffrey\PruebaTecnicaJeffreyDesarrollo
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/Cliente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/Cliente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/Cliente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/Cliente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/EstadoCliente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvQ2xpZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/EstadoCliente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvQ2xpZW50ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/EstadoCliente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvQ2xpZW50ZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/EstadoCliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/EstadoProducto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUHJvZHVjdG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/EstadoProducto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUHJvZHVjdG9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/EstadoProducto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUHJvZHVjdG9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/EstadoProducto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUHJvZHVjdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Jeffrey Mardoqueo/Desktop/Prueba Tecnica TCS/PruebaTecnicaJeffrey/PruebaTecnicaJeffreyDesarrollo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

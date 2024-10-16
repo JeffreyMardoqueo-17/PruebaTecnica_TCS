@@ -1,12 +1,156 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|c:\\users\\jeffrey mardoqueo\\desktop\\prueba tecnica tcs\\pruebatecnicajeffrey\\pruebatecnicajeffreydesarrollo\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|solutionrelative:pruebatecnicajeffreydesarrollo\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|c:\\users\\jeffrey mardoqueo\\desktop\\prueba tecnica tcs\\pruebatecnicajeffrey\\pruebatecnicajeffreydesarrollo\\views\\cliente\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|solutionrelative:pruebatecnicajeffreydesarrollo\\views\\cliente\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|c:\\users\\jeffrey mardoqueo\\desktop\\prueba tecnica tcs\\pruebatecnicajeffrey\\pruebatecnicajeffreydesarrollo\\views\\cliente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|solutionrelative:pruebatecnicajeffreydesarrollo\\views\\cliente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|c:\\users\\jeffrey mardoqueo\\desktop\\prueba tecnica tcs\\pruebatecnicajeffrey\\pruebatecnicajeffreydesarrollo\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|solutionrelative:pruebatecnicajeffreydesarrollo\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|c:\\users\\jeffrey mardoqueo\\desktop\\prueba tecnica tcs\\pruebatecnicajeffrey\\pruebatecnicajeffreydesarrollo\\views\\cliente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|solutionrelative:pruebatecnicajeffreydesarrollo\\views\\cliente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|c:\\users\\jeffrey mardoqueo\\desktop\\prueba tecnica tcs\\pruebatecnicajeffrey\\pruebatecnicajeffreydesarrollo\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|solutionrelative:pruebatecnicajeffreydesarrollo\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|c:\\users\\jeffrey mardoqueo\\desktop\\prueba tecnica tcs\\pruebatecnicajeffrey\\pruebatecnicajeffreydesarrollo\\views\\cliente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|solutionrelative:pruebatecnicajeffreydesarrollo\\views\\cliente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|c:\\users\\jeffrey mardoqueo\\desktop\\prueba tecnica tcs\\pruebatecnicajeffrey\\pruebatecnicajeffreydesarrollo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91B42905-EE7E-4977-8B57-CF4FB472F450}|PruebaTecnicaJeffreyDesarrollo\\PruebaTecnicaJeffreyDesarrollo.csproj|solutionrelative:pruebatecnicajeffreydesarrollo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Delete.cshtml",
+              "RelativeToolTip": "PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T00:47:18.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Details.cshtml",
+              "RelativeDocumentMoniker": "PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Details.cshtml",
+              "RelativeToolTip": "PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Details.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T00:46:56.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Edit.cshtml",
+              "RelativeToolTip": "PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Edit.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwCwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T00:46:30.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Create.cshtml",
+              "RelativeDocumentMoniker": "PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Create.cshtml",
+              "RelativeToolTip": "PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T00:46:12.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "PruebaTecnicaJeffreyDesarrollo\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAqwC0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T00:45:20.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "PruebaTecnicaJeffreyDesarrollo\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Models\\Cliente.cs",
+              "RelativeToolTip": "PruebaTecnicaJeffreyDesarrollo\\Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T00:39:29.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "PruebaTecnicaJeffreyDesarrollo\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "PruebaTecnicaJeffreyDesarrollo\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAuwHIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T00:35:03.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PruebaTecnicaJeffreyDesarrollo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jeffrey Mardoqueo\\Desktop\\Prueba Tecnica TCS\\PruebaTecnicaJeffrey\\PruebaTecnicaJeffreyDesarrollo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PruebaTecnicaJeffreyDesarrollo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T00:30:13.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

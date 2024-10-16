@@ -1,5 +1,8 @@
 var builder = WebApplication.CreateBuilder(args);
 
+//aqui agrego la cadena de conexion desde el appseting.json
+builder.Services.AddSingleton<PruebaTecnicaJeffreyDesarrollo.helpers.DatabaseUtils>();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

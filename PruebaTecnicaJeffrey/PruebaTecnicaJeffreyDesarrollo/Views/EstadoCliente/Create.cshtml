@@ -1,0 +1,17 @@
+﻿@model PruebaTecnicaJeffreyDesarrollo.Models.EstadoCliente
+
+@{
+    ViewData["Title"] = "Crear Estado de Cliente";
+}
+
+<h1>Crear Estado de Cliente</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="Nombre">Nombre del Estado</label>
+        <input type="text" class="form-control" id="Nombre" name="Nombre" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Crear</button>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
+</form>

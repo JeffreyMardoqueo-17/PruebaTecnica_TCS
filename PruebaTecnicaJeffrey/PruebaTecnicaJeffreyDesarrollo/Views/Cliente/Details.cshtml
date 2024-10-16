@@ -1,0 +1,39 @@
+﻿@model PruebaTecnicaJeffreyDesarrollo.Models.Cliente
+
+@{
+    ViewData["Title"] = "Detalles del Cliente";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Detalles del Cliente</h1>
+
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">ID: @Model.Id</h5>
+            <p class="card-text"><strong>Nombre:</strong> @Model.Nombre</p>
+            <p class="card-text"><strong>Apellido:</strong> @Model.Apellido</p>
+            <p class="card-text"><strong>Teléfono:</strong> @Model.Telefono</p>
+            <p class="card-text"><strong>Correo:</strong> @Model.Correo</p>
+            <p class="card-text">
+                <strong>Estado:</strong>
+                @if (Model.IdEstadoCliente == 1)
+                {
+                    <span class="badge badge-success">Activo</span>
+                }
+                else if (Model.IdEstadoCliente == 2)
+                {
+                    <span class="badge badge-warning">Inactivo</span>
+                }
+                else if (Model.IdEstadoCliente == 3)
+                {
+                    <span class="badge badge-danger">Bloqueado</span>
+                }
+            </p>
+        </div>
+    </div>
+
+    <p class="mt-4">
+        <a href="@Url.Action("Edit", new { id = Model.Id })" class="btn btn-warning">Editar</a>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Volver a la lista</a>
+    </p>
+</div>
