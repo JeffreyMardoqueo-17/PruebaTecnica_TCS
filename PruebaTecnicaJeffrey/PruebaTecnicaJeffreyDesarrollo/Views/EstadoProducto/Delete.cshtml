@@ -1,0 +1,20 @@
+﻿@model PruebaTecnicaJeffreyDesarrollo.Models.EstadoProducto
+
+@{
+    ViewData["Title"] = "Eliminar Estado de Producto";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Eliminar Estado de Producto</h1>
+
+    <div class="alert alert-danger">
+        <h4>¿Estás seguro de que deseas eliminar este estado?</h4>
+        <p>Nombre: @Model.Nombre</p>
+    </div>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

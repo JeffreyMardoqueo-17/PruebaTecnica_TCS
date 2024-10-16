@@ -16,28 +16,28 @@ BEGIN
 	SELECT SCOPE_IDENTITY() AS Id;
 END
 GO
-
 CREATE PROCEDURE SPGetCliente
-	@Id INT = NULL  --por sis quiere solo un cliente
+    @Id INT = NULL  -- por si es solo 1
 AS
 BEGIN
-	IF @Id IS NULL
-	BEGIN
-		---------los traigo todos
-		SELECT C.Id, C.Nombre, C.Apellido, C.Telefono, C.Correo, C.Pass, E.Nombre AS Estado
-		FROM Cliente C
-		INNER JOIN EstadoCliente E ON C.IdEstadoCliente = E.Id;
-	END
-	ELSE
-	BEGIN
-		-- o solo uno, que es el del Id
-		SELECT C.Id, C.Nombre, C.Apellido, C.Telefono, C.Correo, C.Pass, E.Nombre AS Estado
-		FROM Cliente C
-		INNER JOIN EstadoCliente E ON C.IdEstadoCliente = E.Id
-		WHERE C.Id = @Id;
-	END
+    IF @Id IS NULL
+    BEGIN
+        ----------tidos
+        SELECT C.Id, C.Nombre, C.Apellido, C.Telefono, C.Correo, C.Pass, C.IdEstadoCliente, E.Nombre AS Estado
+        FROM Cliente C
+        INNER JOIN EstadoCliente E ON C.IdEstadoCliente = E.Id;
+    END
+    ELSE
+    BEGIN
+        -- por id
+        SELECT C.Id, C.Nombre, C.Apellido, C.Telefono, C.Correo, C.Pass, C.IdEstadoCliente, E.Nombre AS Estado
+        FROM Cliente C
+        INNER JOIN EstadoCliente E ON C.IdEstadoCliente = E.Id
+        WHERE C.Id = @Id;
+    END
 END
 GO
+
 
 -----------------SP PARA OBTNER POR LOS ESTADOS, EL Id, puede cambiar en caso que el valor del estado sea diferente en la base de datos eso es todo, con eso es el cuidado
 

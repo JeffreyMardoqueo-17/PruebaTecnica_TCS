@@ -1,0 +1,17 @@
+﻿@model PruebaTecnicaJeffreyDesarrollo.Models.EstadoCliente
+
+@{
+    ViewData["Title"] = "Detalles del Estado de Cliente";
+}
+
+<h1>Detalles del Estado de Cliente</h1>
+
+<div>
+    <h4>ID: @Model.Id</h4>
+    <h4>Nombre: @Model.Nombre</h4>
+</div>
+
+<p>
+    <a href="@Url.Action("Edit", new { id = Model.Id })" class="btn btn-warning">Editar</a> |
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Volver a la lista</a>
+</p>

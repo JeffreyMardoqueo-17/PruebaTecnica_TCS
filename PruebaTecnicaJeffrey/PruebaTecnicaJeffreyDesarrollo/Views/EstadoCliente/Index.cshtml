@@ -1,0 +1,34 @@
+﻿@model IEnumerable<PruebaTecnicaJeffreyDesarrollo.Models.EstadoCliente>
+
+@{
+    ViewData["Title"] = "Estados de Clientes";
+}
+
+<h1>Estados de Clientes</h1>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-primary">Crear Nuevo Estado</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var estado in Model)
+        {
+            <tr>
+                <td>@estado.Id</td>
+                <td>@estado.Nombre</td>
+                <td>
+                    <a href="@Url.Action("Details", new { id = estado.Id })" class="btn btn-info">Detalles</a> |
+                    <a href="@Url.Action("Delete", new { id = estado.Id })" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
