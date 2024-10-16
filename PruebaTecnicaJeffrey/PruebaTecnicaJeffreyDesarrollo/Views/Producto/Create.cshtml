@@ -1,0 +1,34 @@
+﻿@model PruebaTecnicaJeffreyDesarrollo.Models.Producto
+
+@{
+    ViewData["Title"] = "Crear Producto";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Crear Producto</h1>
+
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label for="Nombre">Nombre</label>
+            <input type="text" class="form-control" id="Nombre" name="Nombre" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Descripcion">Descripción</label>
+            <textarea class="form-control" id="Descripcion" name="Descripcion" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="Precio">Precio</label>
+            <input type="number" step="0.01" class="form-control" id="Precio" name="Precio" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Cantidad">Cantidad</label>
+            <input type="number" class="form-control" id="Cantidad" name="Cantidad" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Crear</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

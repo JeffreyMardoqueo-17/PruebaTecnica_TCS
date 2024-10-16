@@ -10,7 +10,7 @@ namespace PruebaTecnicaJeffreyDesarrollo.helpers
     {
         private readonly string _connectionString;
 
-        // Constructor que recibe la configuración (IConfiguration) y obtiene la cadena de conexión desde appsettings.json
+        // Constructor que recibe la configuración (IConfiguration) y obtiene la cadena de conexcion desde appsettings.json (la cendena debe esatr en un .env lo sé)
         public DatabaseUtils(IConfiguration configuration)
         {
             _connectionString = configuration.GetConnectionString("DefaultConnection");
@@ -25,7 +25,7 @@ namespace PruebaTecnicaJeffreyDesarrollo.helpers
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
 
-                    // Agregar los parámetros al comando
+                    //agrego los parametros
                     if (parameters != null)
                     {
                         foreach (var param in parameters)
@@ -74,7 +74,6 @@ namespace PruebaTecnicaJeffreyDesarrollo.helpers
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
 
-                    // Agregar los parámetros al comando
                     if (parameters != null)
                     {
                         foreach (var param in parameters)

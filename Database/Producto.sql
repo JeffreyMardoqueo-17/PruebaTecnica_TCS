@@ -19,24 +19,24 @@ GO
 
 ---------------- obtener todos los productos
 CREATE PROCEDURE SPGetProductos
-	@Id INT = NULL  -- Si el ID es NULL, devuelve todos los productos
+    @Id INT = NULL  -- Si el ID es NULL, devuelve todos los productos
 AS
 BEGIN
-	IF @Id IS NULL ------------esto es para saber si es que la consuta sera para todos o solo paea uno
-	BEGIN
-		-------------- Para todos
-		SELECT P.Id, P.Nombre, P.Descripcion, P.Precio, P.Cantidad, E.Nombre AS Estado
-		FROM Producto P
-		INNER JOIN EstadoProducto E ON P.IdEstadoProducto = E.Id;
-	END
-	ELSE
-	BEGIN
-		----------- por si es para Id
-		SELECT P.Id, P.Nombre, P.Descripcion, P.Precio, P.Cantidad, E.Nombre AS Estado
-		FROM Producto P
-		INNER JOIN EstadoProducto E ON P.IdEstadoProducto = E.Id
-		WHERE P.Id = @Id;
-	END
+    IF @Id IS NULL -- Esto es para saber si la consulta será para todos o solo para uno
+    BEGIN
+        -- Para todos
+        SELECT P.Id, P.Nombre, P.Descripcion, P.Precio, P.Cantidad, P.IdEstadoProducto, E.Nombre AS Estado
+        FROM Producto P
+        INNER JOIN EstadoProducto E ON P.IdEstadoProducto = E.Id;
+    END
+    ELSE
+    BEGIN
+        -- Por si es para un solo producto por Id
+        SELECT P.Id, P.Nombre, P.Descripcion, P.Precio, P.Cantidad, P.IdEstadoProducto, E.Nombre AS Estado
+        FROM Producto P
+        INNER JOIN EstadoProducto E ON P.IdEstadoProducto = E.Id
+        WHERE P.Id = @Id;
+    END
 END
 GO
 
@@ -45,22 +45,24 @@ GO
 CREATE PROCEDURE SPGetProductosDisponibles
 AS
 BEGIN
-	SELECT P.Id, P.Nombre, P.Descripcion, P.Precio, P.Cantidad, E.Nombre AS Estado
-	FROM Producto P
-	INNER JOIN EstadoProducto E ON P.IdEstadoProducto = E.Id
-	WHERE P.IdEstadoProducto = 1;  ----- 1 = Disponible
+    SELECT P.Id, P.Nombre, P.Descripcion, P.Precio, P.Cantidad, P.IdEstadoProducto, E.Nombre AS Estado
+    FROM Producto P
+    INNER JOIN EstadoProducto E ON P.IdEstadoProducto = E.Id
+    WHERE P.IdEstadoProducto = 1;  -- 1 = Disponible
 END
 GO
+
 -------------------------- obtenr todos los productos agotados
 CREATE PROCEDURE SPGetProductosAgotados
 AS
 BEGIN
-	SELECT P.Id, P.Nombre, P.Descripcion, P.Precio, P.Cantidad, E.Nombre AS Estado
-	FROM Producto P
-	INNER JOIN EstadoProducto E ON P.IdEstadoProducto = E.Id
-	WHERE P.IdEstadoProducto = 2;  -------- 2 = Agotado
+    SELECT P.Id, P.Nombre, P.Descripcion, P.Precio, P.Cantidad, P.IdEstadoProducto, E.Nombre AS Estado
+    FROM Producto P
+    INNER JOIN EstadoProducto E ON P.IdEstadoProducto = E.Id
+    WHERE P.IdEstadoProducto = 2;  -- 2 = Agotado
 END
 GO
+
 
 ---------------------ACTUALIZAR UN PRODUCTO POR MEDIO DE SU ID
 

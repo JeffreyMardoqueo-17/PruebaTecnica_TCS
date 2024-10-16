@@ -1,0 +1,35 @@
+﻿@model IEnumerable<PruebaTecnicaJeffreyDesarrollo.Models.Pedido>
+
+<div class="container mt-4">
+    <h1>Lista de Pedidos</h1>
+
+    <a href="@Url.Action("Create")" class="btn btn-primary mb-4">Crear Nuevo Pedido</a>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Pedido ID</th>
+                <th>Cliente</th>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Total</th>
+                <th>Fecha</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pedido in Model)
+            {
+                <tr>
+                    <td>@pedido.Id</td>
+                    <td>@pedido.ClienteNombre</td>
+                    <td>@pedido.ProductoNombre</td>
+                    <td>@pedido.Precio</td>
+                    <td>@pedido.Cantidad</td>
+                    <td>@pedido.Total</td>
+                    <td>@pedido.FechaPedido</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

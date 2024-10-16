@@ -1,0 +1,44 @@
+﻿@model PruebaTecnicaJeffreyDesarrollo.Models.Pedido
+
+<div class="container mt-4">
+    <h1>Crear Pedido</h1>
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.ErrorMessage
+        </div>
+    }
+
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label for="IdCliente">Cliente</label>
+            <select id="IdCliente" name="IdCliente" class="form-control" required>
+                <option value="">Seleccione un cliente</option>
+                @foreach (var cliente in ViewBag.Clientes)
+                {
+                    <option value="@cliente.Id">@cliente.Nombre</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="IdProducto">Producto</label>
+            <select id="IdProducto" name="IdProducto" class="form-control" required>
+                <option value="">Seleccione un producto</option>
+                @foreach (var producto in ViewBag.Productos)
+                {
+                    <option value="@producto.Id">@producto.Nombre (@producto.Cantidad disponibles)</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="Cantidad">Cantidad</label>
+            <input type="number" id="Cantidad" name="Cantidad" class="form-control" min="1" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Crear Pedido</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

@@ -41,4 +41,14 @@ CREATE TABLE Producto(
 	IdEstadoProducto INT NOT NULL FOREIGN KEY REFERENCES EstadoProducto(Id)
 );
 GO
+-----------tabla para los pedidos
+CREATE TABLE Pedido (
+    Id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    IdCliente INT NOT NULL FOREIGN KEY REFERENCES Cliente(Id),  
+    IdProducto INT NOT NULL FOREIGN KEY REFERENCES Producto(Id), 
+    Cantidad INT NOT NULL,
+    FechaPedido DATETIME NOT NULL DEFAULT GETDATE()  
+);
+GO
+
 

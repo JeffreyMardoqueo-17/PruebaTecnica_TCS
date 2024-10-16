@@ -33,11 +33,8 @@ namespace PruebaTecnicaJeffreyDesarrollo.Controllers
                     IdEstadoCliente = row.Table.Columns.Contains("IdEstadoCliente") ? Convert.ToInt32(row["IdEstadoCliente"]) : 0
                 });
             }
-
             return View(clientes);
         }
-
-
 
         public ActionResult Details(int id)
         {
