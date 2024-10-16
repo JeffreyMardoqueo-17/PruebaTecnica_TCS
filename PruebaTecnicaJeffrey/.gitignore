@@ -1,0 +1,8 @@
+# Ignorar archivos de Visual Studio
+.vs/
+*.suo
+*.user
+*.log
+*.obj/
+bin/
+obj/
